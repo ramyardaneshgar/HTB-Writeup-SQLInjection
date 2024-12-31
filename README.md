@@ -3,8 +3,6 @@ HackTheBox Writeup: SQL Injections - exploitation and mitigation techniques like
 
 By Ramyar Daneshgar 
 
-## Background
-
 SQL injection is a code injection technique that exploits vulnerabilities in a web application's interaction with its database. It occurs when an attacker manipulates user input to execute arbitrary SQL queries, leading to unauthorized access to data, administrative control, or even remote code execution.
 
 **Types of SQL Injection:**
