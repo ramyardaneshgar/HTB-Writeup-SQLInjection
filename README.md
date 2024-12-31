@@ -3,16 +3,17 @@ HackTheBox Writeup: SQL Injections - exploitation and mitigation techniques like
 
 By Ramyar Daneshgar 
 
+## Background
+
 SQL injection is a code injection technique that exploits vulnerabilities in a web application's interaction with its database. It occurs when an attacker manipulates user input to execute arbitrary SQL queries, leading to unauthorized access to data, administrative control, or even remote code execution.
 
-Types of SQL Injection:
-
-Classic SQL Injection: Directly retrieves data by injecting SQL queries.
-Union-Based SQL Injection: Combines results from multiple queries using the UNION operator.
-Error-Based SQL Injection: Exploits error messages to gain insights into the database structure.
-Blind SQL Injection: No direct feedback; relies on true/false conditions or time delays.
-Time-Based Blind SQL Injection: Leverages functions like SLEEP() to infer results.
-Out-of-Band SQL Injection: Exploits secondary communication channels, like DNS requests.
+**Types of SQL Injection:**
+1. **Classic SQL Injection**: Directly retrieves data by injecting SQL queries.
+2. **Union-Based SQL Injection**: Combines results from multiple queries using the `UNION` operator.
+3. **Error-Based SQL Injection**: Exploits error messages to gain insights into the database structure.
+4. **Blind SQL Injection**: No direct feedback; relies on true/false conditions or time delays.
+5. **Time-Based Blind SQL Injection**: Leverages functions like `SLEEP()` to infer results.
+6. **Out-of-Band SQL Injection**: Exploits secondary communication channels, like DNS requests.
 
 
 #### **Intro to MySQL**
